@@ -1,0 +1,257 @@
+@import url("https://cdn.fontcdn.ir/Font/Persian/Lotus/Lotus.css");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lotus";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  background-size: cover;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+textarea {
+  font-size: 30px;
+  height: calc(100vh - 100px);
+  max-width: 95%;
+  min-width: 50%;
+  text-align: right;
+  background-color: transparent;
+  color: whitesmoke;
+  padding: 10px 20px;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 30px -10px whitesmoke;
+          box-shadow: 0px 0px 30px -10px whitesmoke;
+  outline: none;
+}
+
+.container {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input[type="text"] {
+  text-align: right;
+  color: whitesmoke;
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  margin: 20px 0;
+  text-align: right;
+  width: 5em;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+  padding: 0 3em;
+  width: 100%;
+}
+
+audio {
+  width: 100%;
+}
+
+.row {
+  background-color: whitesmoke;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
+}
+
+.toggleMenu {
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 10;
+}
+
+.toggleMenu .row1 {
+  -webkit-transform: rotateZ(-30deg);
+          transform: rotateZ(-30deg);
+  width: 14px;
+  position: relative;
+  top: 2.5px;
+}
+
+.toggleMenu .row3 {
+  -webkit-transform: rotateZ(30deg);
+          transform: rotateZ(30deg);
+  width: 14px;
+  position: relative;
+  bottom: 3px;
+}
+
+img {
+  width: 50px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 9;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), to(rgba(0, 0, 0, 0.95)));
+  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95));
+  color: whitesmoke;
+  width: 17em;
+  max-width: 100%;
+  height: 100%;
+  padding: 2em 20px;
+  text-align: right;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow-y: visible;
+}
+
+.menu input[type="text"] {
+  width: 70%;
+  border-bottom: 1px solid tomato;
+  border-left: 1px solid tomato;
+  color: tomato;
+  outline: none;
+  font-size: 20px;
+  padding: 2px 5px;
+}
+
+.menu input[type="button"] {
+  border: none;
+  color: tomato;
+  outline: none;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu span {
+  text-align: right;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.menuOn {
+  left: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:nth-child(2) {
+  margin-top: 30px;
+  color: red;
+}
+
+.cBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: unset;
+  -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  border: 5px solid whitesmoke;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.black {
+  background-color: black;
+}
+
+.sosani {
+  background-color: #e0bbe4;
+  color: black;
+}
+
+.ceremi {
+  background-color: #ffdfd3;
+  color: black;
+}
+
+.wallpapers {
+  padding-top: 20px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  margin-top: 3em;
+  width: 100%;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
