@@ -9,4 +9,4 @@ website where you can write new  songs.
 3) Responsive (usable for phone and other screen sizes)
 
 # See demo
-Https://rez.blogfa.com/page/writeit
+Http://rez.blogfa.com/page/writeit
