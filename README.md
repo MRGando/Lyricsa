@@ -2,3 +2,8 @@
 
 # Lyricsa
 website where you can write new  songs.
+
+# Features
+1) Changing Theme
+2) Playing beat in background (you can use your own links too)
+3) Responsive (usable for phone and other screen sizes)
